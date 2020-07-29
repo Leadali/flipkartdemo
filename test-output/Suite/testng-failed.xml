@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Username= Admin" value="Password= admin123"/>
+  <test name="Test(failed)">
+    <parameter name="Username= Admin" value="Password= admin123"/>
+    <classes>
+      <class name="automationpage.testannotation">
+        <methods>
+          <include name="parameters"/>
+        </methods>
+      </class> <!-- automationpage.testannotation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
